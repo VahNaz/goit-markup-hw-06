@@ -209,10 +209,11 @@ body {
     min-width: 200px;
     border: 1px solid var(--accent-color);
     border-radius: 4px;
-    justify-content: center;
     margin-right: auto;
     margin-left: auto;
     padding: 10px 24px;
+
+    cursor: pointer;
 }
 
 
@@ -690,7 +691,53 @@ body {
 .join {
 display: block;
 justify-content: center;
+margin-right: 93px;
 }
+
+.subscription {
+display: block;
+justify-content: center;
+
+}
+
+.subscription-email {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    margin-right: 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+}
+
+.btn-subscription-footer {
+    position: relative;
+    padding-left: 28px;
+    text-align: left;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+}
+
+.subscription-block {
+    display: flex;
+}
+
+.subscription-icon-send {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+    margin-bottom: 13px;
+    margin-left: 10px;
+    fill: #FFFFFF;
+}
+
+/* .placeholder-email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+} */
 
 .social-list-link-footer {
     display: flex;
