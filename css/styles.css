@@ -633,11 +633,14 @@ body {
 }
 
 
-.modal-form-checkbox:checked + .modal-form-checkbox-label::before,
-.modal-form-checkbox:focus + .modal-form-checkbox-label::before {
+.modal-form-checkbox:checked + .modal-form-checkbox-label::before {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
     background-image: url(../images/svg/vector.svg);
+}
+
+.modal-form-checkbox:focus + .modal-form-checkbox-label::before {
+    border-color: var(--accent-color);
 }
 
 
